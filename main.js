@@ -20,7 +20,7 @@ fs.readFile("data.json", (err, data) => {
         console.log("error",err);
         return;
     }
-    fs.writeFile("data2.txt",result,(err)=>{
+    fs.writeFile("output.txt",result,(err)=>{
         if(err){
             console.log("error",err);
         }
